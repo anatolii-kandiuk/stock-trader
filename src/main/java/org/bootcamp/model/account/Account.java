@@ -29,7 +29,7 @@ public abstract class Account {
     }
 
     public double getFunds() {
-        return funds;
+        return this.funds;
     }
 
     public void setFunds(double funds) {
